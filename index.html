@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gogo今天吃什么</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 可爱装饰 -->
+    <div class="cute-decoration">🍕</div>
+    <div class="cute-decoration">🍩</div>
+    <div class="cute-decoration">🍰</div>
+    <div class="cute-decoration">🍜</div>
+    <div class="cute-decoration">💕</div>
+    <div class="cute-decoration">⭐</div>
+    <div class="cute-decoration">🐾</div>
+    <div class="cute-decoration">🍪</div>
+
+    <div class="container">
+        <!-- 头部区域 -->
+        <header class="header">
+            <div class="logo-section">
+                <div class="logo">gogo</div>
+                <div class="subtitle">Angel Westie</div>
+                <p class="tagline">一只帮你做选择的小天使</p>
+            </div>
+            <div class="gogo-avatar">
+                <img src="image/gogo.png" alt="gogo天使小狗">
+            </div>
+        </header>
+
+        <!-- gogo介绍卡片 -->
+        <div class="info-card">
+            <h2 class="card-title">🐶 世界上最可爱的美食家 gogo 💕</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="label">品种</span>
+                    <span class="value">西高地白梗 🐾</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">🎂 生日</span>
+                    <span class="value">2024.10.16</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">♎ 星座</span>
+                    <span class="value">天秤座</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">💬 口头禅</span>
+                    <span class="value">"爱吃饭的女孩运气不会差~"</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 聊天区域 -->
+        <div class="chat-area" id="chatArea">
+            <!-- gogo的欢迎消息 -->
+            <div class="message gogo" id="welcomeMessage">
+                <div class="message-avatar">🐶</div>
+                <div class="message-bubble">
+                    嗨~ 我是美食家小狗gogo！🍳✨ 爱吃饭的女孩运气不会差~ 告诉我你想吃什么，或者让我教你怎么做一道美味的菜吧！我可以帮你推荐美食，也可以教你做菜哦~ 😊
+                </div>
+            </div>
+        </div>
+
+        <!-- 输入区域 -->
+        <div class="input-area">
+            <input type="text" id="foodInput" placeholder="想吃什么？或让gogo教你做菜~" class="food-input">
+            <button id="submitBtn" class="submit-btn">
+                <span class="btn-text">发送</span>
+                <span class="btn-icon">➤</span>
+            </button>
+        </div>
+
+        <!-- 加载动画 -->
+        <div class="loading" id="loading" style="display: none;">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">gogo正在思考中...</p>
+        </div>
+
+        <!-- 底部装饰 -->
+        <footer class="footer">
+            <div class="decorations">
+                <span class="decoration">🍕</span>
+                <span class="decoration">🍩</span>
+                <span class="decoration">🍰</span>
+                <span class="decoration">🍜</span>
+                <span class="decoration">☕</span>
+            </div>
+            <p class="copyright">gogo Angel Westie © 2024</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
